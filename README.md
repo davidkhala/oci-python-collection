@@ -1,5 +1,4 @@
-# About [PROJECT NAME]
-&lt;Describe your project and who it is for&gt;
+# About OCI python  collection
 
 ## Installation
 &lt;Installation instructions go here&gt;
