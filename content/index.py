@@ -1,5 +1,5 @@
 # /documents/api/1.2/folders/{folderId}
-
+from http_request import get
 
 class Base:
     tenancy_name: str
@@ -13,6 +13,5 @@ class Base:
         return "{}-{}.cec.ocp.oraclecloud.com".format(self.instance_name, self.tenancy_name)
 
     def login(self):
+        return get('https://cx-hktwlab.cec.ocp.oraclecloud.com/documents/web?IdcService=GET_OAUTH_TOKEN')
         
-            # https://cx-hktwlab.cec.ocp.oraclecloud.com/documents/web?IdcService=GET_OAUTH_TOKEN
-        return 2
